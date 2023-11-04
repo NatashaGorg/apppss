@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <section class="container">
+    <ul class="list" id="messageList">
+      <li class="mine">
+        <span class="sender">Nate:</span>
+        <span class="message">Hey!</span>
+      </li>
+      <li class="other">
+        <span class="sender">Anisija:</span>
+        <span class="message">How are you?</span>
+      </li>
+      <li class="mine">
+        <span class="sender">Nate:</span>
+        <span class="message">Great, you?</span>
+      </li>>
+      
+    </ul>
+    <form class="submit" id="messageForm">
+      <textarea
+        id="messageInput"
+        name="message"
+        placeholder="Write here..."
+      ></textarea>
+      <input type="submit" class="button" />
+    </form>
+  </section>
+</body>
+</html>
