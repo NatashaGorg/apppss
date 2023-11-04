@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(blossom.jpg);
+    background-blend-mode:soft-light;
+
+  }
+
+  .container {
+    border: 10px ridge #5df17d;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 5em;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .list li {
+    display: flex;
+    padding: 8px;
+  }
+  .mine .message {
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+  }
+  .mine {
+    justify-content: flex-end;
+  }
+
+  .other .message {
+    background: linear-gradient(
+      to right,
+      rgb(182, 244, 146),
+      rgb(51, 139, 147)
+    );
+    color: white;
+  }
+  .message {
+    border-radius: 8px;
+    padding: 4px 16px;
+    
+  }
+  .mine .sender {
+    color: darkred;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+  }
+ .other .sender {
+  color: lightgreen;
+  font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+
+ }
+  .submit {
+    display: flex;
+    justify-content: center;
+  
+  }
+  textarea {
+    font-size: 14px;
+    padding: 6px;
+    margin: 0;
+  }
+  
+  
+  .button {
+    background: linear-gradient(#430b0b, #c98a8a, #999);
+  }
